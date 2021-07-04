@@ -29,7 +29,7 @@ for i in range(1, 31):
 economy.drop(columns=columns, inplace=True, axis=1)
 
 results = pd.read_csv("results.csv", sep=",")
-#results = results.head(1000)
+
 results.drop(columns=["date",
                       "team_1",
                       "team_2",
